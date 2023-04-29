@@ -37,7 +37,7 @@
         ],
         "email": "alice.johnson@example.com",
         "password": "password123",
-        "profile_picture": "https://example.com/profiles/alicejohnson.jpg",
+        "profile_picture": "./profile-pictures/0f.jpg",
         "phone_number": "+1 (123) 456-7890"
       },
       {
@@ -82,7 +82,7 @@
         ],
         "email": "bob.smith@example.com",
         "password": "bobspassword",
-        "profile_picture": "https://example.com/profiles/bobsmith.jpg",
+        "profile_picture": "./profile-pictures/0m.jpg",
         "phone_number": "+1 (234) 567-8910"
       },
       {
@@ -127,7 +127,7 @@
       ],
       "email": "cathy.brown@example.com",
       "password": "cathy123",
-      "profile_picture": "https://example.com/profiles/cathybrown.jpg",
+      "profile_picture": "./profile-pictures/1f.jpg",
       "phone_number": "+1 (345) 678-9123"
     },
     {
@@ -172,7 +172,7 @@
       ],
       "email": "david.williams@example.com",
       "password": "davidspass",
-      "profile_picture": "https://example.com/profiles/davidwilliams.jpg",
+      "profile_picture": "./profile-pictures/1m.jpg",
       "phone_number": "+1 (456) 789-0123"
     },
     {
@@ -217,7 +217,7 @@
       ],
       "email": "emma.green@example.com",
       "password": "emmagreen",
-      "profile_picture": "https://example.com/profiles/emmagreen.jpg",
+      "profile_picture": "./profile-pictures/2f.jpg",
       "phone_number": "+1 (567) 890-1234"
     },
     {
@@ -262,7 +262,7 @@
       ],
       "email": "frank.martinez@example.com",
       "password": "frankspass",
-      "profile_picture": "https://example.com/profiles/frankmartinez.jpg",
+      "profile_picture": "./profile-pictures/2m.jpg",
       "phone_number": "+1 (678) 901-2345"
     },
     {
@@ -307,7 +307,7 @@
       ],
       "email": "grace.thompson@example.com",
       "password": "grace123",
-      "profile_picture": "https://example.com/profiles/gracethompson.jpg",
+      "profile_picture": "./profile-pictures/3f.jpg",
       "phone_number": "+1 (789) 012-3456"
     },
     {
@@ -335,7 +335,7 @@
           "emoji": "🎨"
         },
         {
-          "hobby_id":         "7",
+          "hobby_id": "7",
           "name": "Reading",
           "emoji": "📚"
         },
@@ -352,7 +352,7 @@
       ],
       "email": "henry.white@example.com",
       "password": "henrywhite",
-      "profile_picture": "https://example.com/profiles/henrywhite.jpg",
+      "profile_picture": "./profile-pictures/3m.jpg",
       "phone_number": "+1 (890) 123-4567"
     },
     {
@@ -397,7 +397,7 @@
       ],
       "email": "iris.clark@example.com",
       "password": "irispw123",
-      "profile_picture": "https://example.com/profiles/irisclark.jpg",
+      "profile_picture": "./profile-pictures/4f.jpg",
       "phone_number": "+1 (901) 234-5678"
     },
     {
@@ -442,7 +442,7 @@
       ],
       "email": "jack.taylor@example.com",
       "password": "jacktaylor",
-      "profile_picture": "https://example.com/profiles/jacktaylor.jpg",
+      "profile_picture": "./profile-pictures/4m.jpg",
       "phone_number": "+1 (012) 345-6789"
     }]
 }
