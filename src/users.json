@@ -1,0 +1,448 @@
+{
+    "users": [
+      {
+        "user_id": 0,
+        "name": "Alice Johnson",
+        "hobbies": [
+          {
+            "hobby_id": 0,
+            "name": "Photography",
+            "emoji": "📷"
+          },
+          {
+            "hobby_id": 1,
+            "name": "Cycling",
+            "emoji": "🚴‍♀️"
+          },
+          {
+            "hobby_id": 2,
+            "name": "Cooking",
+            "emoji": "🍳"
+          },
+          {
+            "hobby_id": 3,
+            "name": "Hiking",
+            "emoji": "🥾"
+          },
+          {
+            "hobby_id": 4,
+            "name": "Guitar",
+            "emoji": "🎸"
+          },
+          {
+            "hobby_id": 5,
+            "name": "Yoga",
+            "emoji": "🧘‍♀️"
+          }
+        ],
+        "email": "alice.johnson@example.com",
+        "password": "password123",
+        "profile_picture": "https://example.com/profiles/alicejohnson.jpg",
+        "phone_number": "+1 (123) 456-7890"
+      },
+      {
+        "user_id": 1,
+        "name": "Bob Smith",
+        "hobbies": [
+          {
+            "hobby_id": 0,
+            "name": "Photography",
+            "emoji": "📷"
+          },
+          {
+            "hobby_id": 3,
+            "name": "Hiking",
+            "emoji": "🥾"
+          },
+          {
+            "hobby_id": 4,
+            "name": "Guitar",
+            "emoji": "🎸"
+          },
+          {
+            "hobby_id": 5,
+            "name": "Yoga",
+            "emoji": "🧘‍♀️"
+          },
+          {
+            "hobby_id": 6,
+            "name": "Painting",
+            "emoji": "🎨"
+          },
+          {
+            "hobby_id": 7,
+            "name": "Reading",
+            "emoji": "📚"
+          },
+          {
+            "hobby_id": 8,
+            "name": "Swimming",
+            "emoji": "🏊‍♂️"
+          }
+        ],
+        "email": "bob.smith@example.com",
+        "password": "bobspassword",
+        "profile_picture": "https://example.com/profiles/bobsmith.jpg",
+        "phone_number": "+1 (234) 567-8910"
+      },
+      {
+        "user_id": 2,
+        "name": "Cathy Brown",
+        "hobbies": [
+          {
+            "hobby_id": 1,
+            "name": "Cycling",
+            "emoji": "🚴‍♀️"
+          },
+          {
+            "hobby_id": 2,
+            "name": "Cooking",
+            "emoji": "🍳"
+          },
+          {
+            "hobby_id": 3,
+            "name": "Hiking",
+            "emoji": "🥾"
+          },
+          {
+            "hobby_id": 4,
+            "name": "Guitar",
+            "emoji": "🎸"
+          },
+          {
+            "hobby_id": 5,
+            "name": "Yoga",
+            "emoji": "🧘‍♀️"
+        },
+        {
+          "hobby_id": 7,
+          "name": "Reading",
+          "emoji": "📚"
+        },
+        {
+          "hobby_id": 8,
+          "name": "Swimming",
+          "emoji": "🏊‍♂️"
+        }
+      ],
+      "email": "cathy.brown@example.com",
+      "password": "cathy123",
+      "profile_picture": "https://example.com/profiles/cathybrown.jpg",
+      "phone_number": "+1 (345) 678-9123"
+    },
+    {
+      "user_id": 3,
+      "name": "David Williams",
+      "hobbies": [
+        {
+          "hobby_id": 0,
+          "name": "Photography",
+          "emoji": "📷"
+        },
+        {
+          "hobby_id": 2,
+          "name": "Cooking",
+          "emoji": "🍳"
+        },
+        {
+          "hobby_id": 3,
+          "name": "Hiking",
+          "emoji": "🥾"
+        },
+        {
+          "hobby_id": 5,
+          "name": "Yoga",
+          "emoji": "🧘‍♀️"
+        },
+        {
+          "hobby_id": 6,
+          "name": "Painting",
+          "emoji": "🎨"
+        },
+        {
+          "hobby_id": 7,
+          "name": "Reading",
+          "emoji": "📚"
+        },
+        {
+          "hobby_id": 9,
+          "name": "Dancing",
+          "emoji": "💃"
+        }
+      ],
+      "email": "david.williams@example.com",
+      "password": "davidspass",
+      "profile_picture": "https://example.com/profiles/davidwilliams.jpg",
+      "phone_number": "+1 (456) 789-0123"
+    },
+    {
+      "user_id": 4,
+      "name": "Emma Green",
+      "hobbies": [
+        {
+          "hobby_id": 0,
+          "name": "Photography",
+          "emoji": "📷"
+        },
+        {
+          "hobby_id": 1,
+          "name": "Cycling",
+          "emoji": "🚴‍♀️"
+        },
+        {
+          "hobby_id": 4,
+          "name": "Guitar",
+          "emoji": "🎸"
+        },
+        {
+          "hobby_id": 6,
+          "name": "Painting",
+          "emoji": "🎨"
+        },
+        {
+          "hobby_id": 7,
+          "name": "Reading",
+          "emoji": "📚"
+        },
+        {
+          "hobby_id": 8,
+          "name": "Swimming",
+          "emoji": "🏊‍♂️"
+        },
+        {
+          "hobby_id": 10,
+          "name": "Basketball",
+          "emoji": "🏀"
+        }
+      ],
+      "email": "emma.green@example.com",
+      "password": "emmagreen",
+      "profile_picture": "https://example.com/profiles/emmagreen.jpg",
+      "phone_number": "+1 (567) 890-1234"
+    },
+    {
+      "user_id": 5,
+      "name": "Frank Martinez",
+      "hobbies": [
+        {
+          "hobby_id": 1,
+          "name": "Cycling",
+          "emoji": "🚴‍♀️"
+        },
+        {
+          "hobby_id": 2,
+          "name": "Cooking",
+          "emoji": "🍳"
+        },
+        {
+          "hobby_id": 3,
+          "name": "Hiking",
+          "emoji": "🥾"
+        },
+        {
+          "hobby_id": 4,
+          "name": "Guitar",
+          "emoji": "🎸"
+        },
+        {
+          "hobby_id": 6,
+          "name": "Painting",
+          "emoji": "🎨"
+        },
+        {
+          "hobby_id": 9,
+          "name": "Dancing",
+          "emoji": "💃"
+        },
+        {
+          "hobby_id": 10,
+          "name": "Basketball",
+          "emoji": "🏀"
+        }
+      ],
+      "email": "frank.martinez@example.com",
+      "password": "frankspass",
+      "profile_picture": "https://example.com/profiles/frankmartinez.jpg",
+      "phone_number": "+1 (678) 901-2345"
+    },
+    {
+      "user_id": 6,
+      "name": "Grace Thompson",
+      "hobbies": [
+        {
+          "hobby_id": 0,
+          "name": "Photography",
+          "emoji": "📷"
+        },
+        {
+          "hobby_id": 2,
+          "name": "Cooking",
+          "emoji": "🍳"
+        },
+        {
+          "hobby_id": 3,
+          "name": "Hiking",
+          "emoji": "🥾"
+        },
+        {
+          "hobby_id": 5,
+          "name": "Yoga",
+          "emoji": "🧘‍♀️"
+        },
+        {
+          "hobby_id": 7,
+          "name": "Reading",
+          "emoji": "📚"
+        },
+        {
+          "hobby_id": 8,
+          "name": "Swimming",
+          "emoji": "🏊‍♂️"
+        },
+        {
+          "hobby_id": 9,
+          "name": "Dancing",
+          "emoji": "💃"
+        }
+      ],
+      "email": "grace.thompson@example.com",
+      "password": "grace123",
+      "profile_picture": "https://example.com/profiles/gracethompson.jpg",
+      "phone_number": "+1 (789) 012-3456"
+    },
+    {
+      "user_id": 7,
+      "name": "Henry White",
+      "hobbies": [
+        {
+          "hobby_id": 0,
+          "name": "Photography",
+          "emoji": "📷"
+        },
+        {
+          "hobby_id": 1,
+          "name": "Cycling",
+          "emoji": "🚴‍♀️"
+        },
+        {
+          "hobby_id": 4,
+          "name": "Guitar",
+          "emoji": "🎸"
+        },
+        {
+          "hobby_id": 6,
+          "name": "Painting",
+          "emoji": "🎨"
+        },
+        {
+          "hobby_id":         "7",
+          "name": "Reading",
+          "emoji": "📚"
+        },
+        {
+          "hobby_id": 8,
+          "name": "Swimming",
+          "emoji": "🏊‍♂️"
+        },
+        {
+          "hobby_id": 10,
+          "name": "Basketball",
+          "emoji": "🏀"
+        }
+      ],
+      "email": "henry.white@example.com",
+      "password": "henrywhite",
+      "profile_picture": "https://example.com/profiles/henrywhite.jpg",
+      "phone_number": "+1 (890) 123-4567"
+    },
+    {
+      "user_id": 8,
+      "name": "Iris Clark",
+      "hobbies": [
+        {
+          "hobby_id": 1,
+          "name": "Cycling",
+          "emoji": "🚴‍♀️"
+        },
+        {
+          "hobby_id": 2,
+          "name": "Cooking",
+          "emoji": "🍳"
+        },
+        {
+          "hobby_id": 3,
+          "name": "Hiking",
+          "emoji": "🥾"
+        },
+        {
+          "hobby_id": 5,
+          "name": "Yoga",
+          "emoji": "🧘‍♀️"
+        },
+        {
+          "hobby_id": 6,
+          "name": "Painting",
+          "emoji": "🎨"
+        },
+        {
+          "hobby_id": 8,
+          "name": "Swimming",
+          "emoji": "🏊‍♂️"
+        },
+        {
+          "hobby_id": 9,
+          "name": "Dancing",
+          "emoji": "💃"
+        }
+      ],
+      "email": "iris.clark@example.com",
+      "password": "irispw123",
+      "profile_picture": "https://example.com/profiles/irisclark.jpg",
+      "phone_number": "+1 (901) 234-5678"
+    },
+    {
+      "user_id": 9,
+      "name": "Jack Taylor",
+      "hobbies": [
+        {
+          "hobby_id": 0,
+          "name": "Photography",
+          "emoji": "📷"
+        },
+        {
+          "hobby_id": 1,
+          "name": "Cycling",
+          "emoji": "🚴‍♀️"
+        },
+        {
+          "hobby_id": 2,
+          "name": "Cooking",
+          "emoji": "🍳"
+        },
+        {
+          "hobby_id": 4,
+          "name": "Guitar",
+          "emoji": "🎸"
+        },
+        {
+          "hobby_id": 7,
+          "name": "Reading",
+          "emoji": "📚"
+        },
+        {
+          "hobby_id": 9,
+          "name": "Dancing",
+          "emoji": "💃"
+        },
+        {
+          "hobby_id": 10,
+          "name": "Basketball",
+          "emoji": "🏀"
+        }
+      ],
+      "email": "jack.taylor@example.com",
+      "password": "jacktaylor",
+      "profile_picture": "https://example.com/profiles/jacktaylor.jpg",
+      "phone_number": "+1 (012) 345-6789"
+    }]
+}
