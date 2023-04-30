@@ -13,8 +13,6 @@ function App() {
     <div className="Value-propositions">
       < ViewNavbar />
     </div>
-    // <div>
-    // </div>
   );
 }
 
