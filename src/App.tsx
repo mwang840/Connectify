@@ -5,6 +5,7 @@ import About from './components/About'
 import './App.css';
 import HelloWorld from './components/hello_world'
 import Home from './components/home'
+import { ViewNavbar } from './components/ViewNavbar'
 
 // import Welcome from './components/value-prop';
 
@@ -12,6 +13,7 @@ import Home from './components/home'
 function App() {
   return (
     <div className="Value-propositions">
+      < ViewNavbar />
       <Home />
     </div>
     // <div>
