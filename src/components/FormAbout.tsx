@@ -1,38 +1,6 @@
 import React, { useState} from 'react'
 import { serialized } from './About';
 import { Link } from "react-router-dom";
-// import { parseProfiles } from './ParseProfiles';
-
-// let serialized = parseProfiles()
-// hobbies in profile are also displayed from this list
-
-// after this i need database of emojis and their names
-
-// function FormAbout(props: { user_id: string; }) {
-//     let hobbies = serialized[parseInt(props.user_id)].hobbies;
-//     let hobbyElements = [];
-//     let isEditable:boolean = false;
-
-//     for (let i = 0; i < hobbies.length; i++) {
-//       hobbyElements.push(
-//         <div key={i}>
-//           <p>
-//             {hobbies[i].emoji} {hobbies[i].name}  
-//           </p>
-//         </div>
-//       );
-//     } 
-//     return (
-//       <div className="about">
-//         {hobbyElements}
-//         <br></br>
-//         {/* edit form shows up here after a user clicks edit button next to a hobby */}
-//         <input type="text" placeholder="edit hobby" disabled={!isEditable}></input>
-//       </div>
-//     );
-//   }
-
-// export default FormAbout
 
 function FormAbout(props: { user_id: string; }) {
   let hobbies = serialized[parseInt(props.user_id)].hobbies;
@@ -83,6 +51,9 @@ function FormAbout(props: { user_id: string; }) {
   <br></br>
   <Link to={`/profile?serialized=${serialized}`}>
         <button>Done</button>
+      </Link>
+  <Link to={`/explore?serialized=${serialized}`}>
+        <button>Explore</button>
       </Link>
   </div>;
 }
