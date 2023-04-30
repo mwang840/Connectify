@@ -1,7 +1,10 @@
 import React from 'react';
+<<<<<<< HEAD
 import Name from './components/Name'
 import Contact from './components/Contact'
 import About from './components/About'
+=======
+>>>>>>> 2ad3c3e8d7a910eeff5860b98e997f7988985aa5
 import './App.css';
 import HelloWorld from './components/hello_world'
 // import Welcome from './components/value-prop';
