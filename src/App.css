@@ -148,3 +148,37 @@
     cursor: pointer;
     border-radius: 12px;
   }
+
+.title_post {
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+  line-height: normal;
+}
+
+.profilepic {
+  /* margin: 'auto'; */
+  margin-left: auto;
+  margin-right: auto;
+  /* borderColor: 'white'; */
+}
+
+.explore_sections {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.explore_name .explore_hobbies {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.explore {
+  font-size: larger;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
