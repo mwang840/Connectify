@@ -1,10 +1,8 @@
 import React from 'react';
 import Name from './Name';
 import Contact from './Contact';
-import About from './About';
-import data from './users.json';
-
-
+// import About from './About';
+import FormAbout from './FormAbout';
 
 function EditProfile() {
     return (
@@ -15,7 +13,7 @@ function EditProfile() {
        </header>
        <body>
         <Contact></Contact>
-        <About></About>
+        <FormAbout user_id="0"></FormAbout>
        </body>
        <br></br>
        <br></br>
