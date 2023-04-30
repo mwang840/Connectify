@@ -1,12 +1,14 @@
 import React from 'react';
-import './Profile.css';
 import Name from './Name';
 import Contact from './Contact';
 import About from './About';
-import EditProfileButton from './EditProfileButton';
+import data from './users.json';
 
-function Profile() {
+
+
+function EditProfile() {
     return (
+        // <p>edit profile screen</p>
       <div className="profile">
        <header>
        <Name></Name>
@@ -17,9 +19,10 @@ function Profile() {
        </body>
        <br></br>
        <br></br>
-       <EditProfileButton />
+      
+      done button
       </div>
-    );
-  }
-  
-  export default Profile;
+    )
+}
+
+export default EditProfile

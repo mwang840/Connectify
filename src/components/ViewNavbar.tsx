@@ -4,12 +4,14 @@ import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import Profile from './Profile';
 import Home from "./home";
 //import Explore from "./Explore";
+import Home from './home';
+import EditProfile from './edit_profile';
 //import "bootstrap/dist/css/bootstrap.min.css";
 
 
 export function ViewNavbar(): JSX.Element {
     return (
-      <><Navbar expand="lg" style={{ backgroundColor: "#ADD8E6", paddingLeft: "15px", color: "white", paddingRight: "15px" }} className="justify-content-center">
+      <><Navbar expand="lg" style={{ backgroundColor: "#ADD8E6", paddingLeft: "15px", color: "black", paddingRight: "15px" }} className="justify-content-center">
         <Navbar.Brand style={{ position: "relative", left: "0px", color: "black", textAlign: "center" }}>
           Connectify
         </Navbar.Brand>
@@ -33,6 +35,7 @@ export function ViewNavbar(): JSX.Element {
             <Route path='/profile' element={<Profile />} />
             <Route path='/home' element={<Home />} />
             {/* <Route path='/Explore' element={<Explore /> } /> */}
+            <Route path='/edit_profile' element={<EditProfile />} />
           </Routes>
         </Router></>
       );
