@@ -1,10 +1,14 @@
 import React from 'react';
 import { serialized } from './About';
-// import pic0m from './profile_pictures/0m.jpg';
-// import pic1m from './profile_pictures/1m.jpg';
-// import pic2m from './profile_pictures/2m.jpg';
-// import pic3m from './profile_pictures/3m.jpg';
-// import pic4m from './profile_pictures/4m.jpg';
+import pic1 from './profile-pictures/0m.jpg';
+import pic2 from './profile-pictures/1f.jpg';
+import pic3 from './profile-pictures/1m.jpg';
+import pic4 from './profile-pictures/2f.jpg';
+import pic5 from './profile-pictures/2m.jpg';
+import pic6 from './profile-pictures/3f.jpg';
+import pic7 from './profile-pictures/3m.jpg';
+import pic8 from './profile-pictures/4f.jpg';
+import pic9 from './profile-pictures/4m.jpg';
 import { Link } from "react-router-dom";
 // import Profile from './Profile';
 // import { FC } from 'react';
@@ -55,27 +59,56 @@ function Explore(props: { user_id: string; serialized: [];}) {
     }
   }
   // console.log(counts_dict);
+  let pfp = [];
+      pfp.push(
+          <img className="profilepic" src={pic1} alt="1"></img>
+      )
+      pfp.push(
+          <img className="profilepic" src={pic2} alt="2"></img>
+      )
+      pfp.push(
+          <img className="profilepic" src={pic3} alt="3"></img>
+      )
+      pfp.push(
+          <img className="profilepic" src={pic4} alt="4"></img>
+      )
+      pfp.push(
+          <img className="profilepic" src={pic5} alt="5"></img>
+      )
+      pfp.push(
+          <img className="profilepic" src={pic6} alt="6"></img>
+      )
+      pfp.push(
+          <img className="profilepic" src={pic7} alt="7"></img>
+      )
+      pfp.push(
+          <img className="profilepic" src={pic8} alt="8"></img>
+      )
+      pfp.push(
+          <img className="profilepic" src={pic9} alt="9"></img>)
 
   let userElements = users.map((user: {user_id: number, name: string, hobbies: []}, i: number) => {
     return (
+      <div className="explore_sections">
       <div key={i}>
+        {pfp[i]}
         <h1 className="explore_name">{user.name}</h1>
         {/* <p className="explore_hobbies">{user.hobbies}</p> */}
         <p className="explore_hobbies">Common Hobbies: {counts_dict[user.user_id]}</p>
-        <img className="explore_img" src={user.profile_picture} alt="pfp"></img>
         <Link to={`/profile/${user.user_id}?serialized=${serialized}&user_id=${user.user_id}`}>
         <button>View</button>
       </Link>
         <br></br>
         <br></br>
       </div>
+    </div>
     )
   })
   // for displaying each user 
 
   return (
-    <div className="Explore">
-      <h1>Explore</h1>
+    <div>
+      <h1 className="explore">Explore</h1>
       <br></br>
       {userElements}
     </div> )
