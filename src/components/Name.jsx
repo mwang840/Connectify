@@ -9,13 +9,13 @@ let name = data.users[0].name;
 function Name() {
         return (
             <section id="container-about" className="container-about">
-                    <img id="profilepic" src={pic}
+                    <img className="profilepic" src={pic}
                         style={{
+                            margin: 'auto',
                             borderColor: 'white',
-                            borderwidth: 5,
-                            width: 200,
-                            height: 200,
-                            borderRadius: 200 / 2
+                            // borderwidth: 5,
+                            // width: 200,
+                            // height: 200,
                         }}
                         alt="profilepic" />
                     <h1> {name} </h1>
