@@ -1,8 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
-import Name from './components/Name'
-import Contact from './components/Contact'
-import About from './components/About'
 import './App.css';
 import HelloWorld from './components/hello_world'
 // import Welcome from './components/value-prop';
@@ -10,6 +6,7 @@ import ValueProp from './components/value-prop';
 import { ReactComponent as Users_svg } from './assets/Users.svg';
 import { ReactComponent as UserSwitch_svg } from './assets/UserSwitch.svg';
 import { ReactComponent as HandWaving_svg } from './assets/HandWaving.svg';
+
 
 function App() {
   return (
