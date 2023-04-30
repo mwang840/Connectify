@@ -1,12 +1,12 @@
 import React, { Component } from 'react'
 import { useResolvedPath } from 'react-router-dom';
-import data from './users.json';
 import pic from './profile-pictures/3f.jpg';
+import { serialized } from './About';
 
-let name = data.users[0].name;
 //import pfp from data.users[0].profile_picture;
 
-function Name() {
+function Name(props: { user_id: string; serialized: [];}) {
+    let name = serialized[props.user_id].name;
         return (
             <section id="container-about" className="container-about">
                     <img className="profilepic" src={pic}
