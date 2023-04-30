@@ -6,8 +6,8 @@ function Welcome(props: { name: string; }) {
 
 function ValueProp(props: { title: string, text: string;}) {
     return <div> 
-        <h1>{props.title}</h1> 
-        <p>{props.text}</p>
+        <h1 className="value-prop-title">{props.title}</h1> 
+        <p className="value-prop-body">{props.text}</p>
     </div>;
 }
 
