@@ -12,10 +12,7 @@ function App() {
   return (
     <div className="Value-propositions">
       < ViewNavbar />
-      <Home />
     </div>
-    // <div>
-    // </div>
   );
 }
 
