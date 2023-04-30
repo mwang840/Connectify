@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import { useResolvedPath } from 'react-router-dom';
 import data from './users.json';
 import pic from './profile-pictures/3f.jpg';
-import './name.css';
 
 let name = data.users[0].name;
 //import pfp from data.users[0].profile_picture;
