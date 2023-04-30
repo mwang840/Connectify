@@ -1,0 +1,30 @@
+.Profile {
+    text-align: center;
+    color: black
+}
+
+.Profile-header {
+    background-color: #ADD8E6;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    font: quicksand;
+    color: black;
+    line-height: normal;
+  }
+
+  .Profile-body {
+    background-color: #ffffff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    font: quicksand;
+    color: black;
+    line-height: normal;
+  }

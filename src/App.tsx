@@ -1,22 +1,20 @@
 import React from 'react';
-<<<<<<< HEAD
-import Name from './components/Name'
-import Contact from './components/Contact'
-import About from './components/About'
-=======
->>>>>>> 2ad3c3e8d7a910eeff5860b98e997f7988985aa5
 import './App.css';
+//import "bootstrap/dist/css/bootstrap.min.css";
 import HelloWorld from './components/hello_world'
 // import Welcome from './components/value-prop';
 import ValueProp from './components/value-prop';
 import { ReactComponent as Users_svg } from './assets/Users.svg';
 import { ReactComponent as UserSwitch_svg } from './assets/UserSwitch.svg';
 import { ReactComponent as HandWaving_svg } from './assets/HandWaving.svg';
+import { ViewNavbar } from './components/ViewNavbar';
+import Profile from './components/Profile'
 
 
 function App() {
   return (
     <div className="Value-propositions">
+      <ViewNavbar></ViewNavbar>
       {/* <HelloWorld /> */}
       <ul>
         <HandWaving_svg />
@@ -29,6 +27,7 @@ function App() {
         <ValueProp title="Just met? Exchange profiles. Learn each other's interests." 
           text="Meet new people with shared interests." />
       </ul>
+      <Profile/>
     </div>
     // <div>
     // </div>
