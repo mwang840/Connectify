@@ -1,5 +1,8 @@
 import React from 'react';
-// import logo from './logo.svg';
+import logo from './logo.svg';
+import Name from './components/Name'
+import Contact from './components/Contact'
+import About from './components/About'
 import './App.css';
 import HelloWorld from './components/hello_world'
 // import Welcome from './components/value-prop';
