@@ -1,3 +1,7 @@
+### Tailwindcss integration with VSCode
+1. change file association setting to "tailwindcss" for all items that are "*.css"
+2. run "npm install -D tailwindcss"
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
