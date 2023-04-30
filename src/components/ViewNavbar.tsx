@@ -1,33 +1,35 @@
 import React from "react";
 import {Nav, Navbar} from "react-bootstrap";
+import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
+import Profile from './Profile';
+//import "bootstrap/dist/css/bootstrap.min.css";
 
 
 export function ViewNavbar(): JSX.Element {
     return (
-        
-          <Navbar expand="lg" style={{backgroundColor: "#ADD8E6", paddingLeft:"15px", color: "white", paddingRight: "15px", fontSize: "40px"}} className="justify-content-center">
-          
-            <Navbar.Brand style={{position: "relative", left: "0px", color: "black", textAlign: "center"}}>
-            Connectify
-            </Navbar.Brand>
-            <Navbar.Collapse id="basic-navbar-nav" className="d-flex align-items-center">
-            <Nav className="flex-grow-1 justify-content-evenly">
-              <Nav.Item style={{textAlign: "center", margin: "20px", fontFamily:"quicksand"}}>
-                <span className="">
-                  <Nav.Link style={{ textAlign: "right", margin: "20px", verticalAlign: "20px", textDecoration: "none", color: "black", borderRadius: "25px", paddingTop: "10px", paddingBottom: "10px", paddingLeft: "30px", paddingRight: "30px", backgroundColor:"white"}} href="/home" target="_blank">
-                  Home  
-                </Nav.Link>
-                </span>
-              
-              <Nav.Link style={{ margin: "20px", verticalAlign: "20px", fontFamily: "quicksand", textDecoration: "none", color: "black",  borderRadius: "25px", paddingTop: "10px", paddingBottom: "10px", paddingLeft: "30px", paddingRight: "30px", backgroundColor:"white"}} href="/Profile" target="_blank">
+      <><Navbar expand="lg" style={{ backgroundColor: "#ADD8E6", paddingLeft: "15px", color: "white", paddingRight: "15px" }} className="justify-content-center">
+        <Navbar.Brand style={{ position: "relative", left: "0px", color: "black", textAlign: "center" }}>
+          Connectify
+        </Navbar.Brand>
+        <Navbar.Collapse id="basic-navbar-nav" className="d-flex align-items-center">
+          <Nav className="flex-grow-1 justify-content-evenly">
+            <Nav.Item style={{ textAlign: "center", margin: "20px", fontFamily: "quicksand" }}>
+              <Nav.Link style={{ margin: "20px" }} href="/home">
+                Home
+              </Nav.Link>
+              <Nav.Link style={{ margin: "20px", fontFamily: "quicksand" }} href="./Profile">
                 Profile
               </Nav.Link>
-              <Nav.Link style={ {margin: "20px", verticalAlign: "20px", fontFamily: "quicksand", textDecoration: "none", fontSize: "40px", color: "black", borderRadius: "25px", paddingTop: "10px", paddingBottom: "10px", paddingLeft: "30px", paddingRight: "30px", backgroundColor:"white"}} href="/Explore" target="_blank">
+              <Nav.Link style={{ margin: "20px", fontFamily: "quicksand" }} href="/Explore">
                 Explore
               </Nav.Link>
-              </Nav.Item>
-            </Nav>
-            </Navbar.Collapse>
-          </Navbar>
+            </Nav.Item>
+          </Nav>
+        </Navbar.Collapse>
+      </Navbar><Router>
+          <Routes>
+            <Route path='/profile' element={<Profile />} />
+          </Routes>
+        </Router></>
       );
 }

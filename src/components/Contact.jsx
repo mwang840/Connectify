@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import data from './users.json';
-import './Contact.css';
 
 let phone = data.users[0].phone_number;
 let email = data.users[0].email;
