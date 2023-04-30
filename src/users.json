@@ -82,7 +82,7 @@
         ],
         "email": "bob.smith@example.com",
         "password": "bobspassword",
-        "profile_picture": "./profile-pictures/0m.jpg",
+        "profile_picture": "pic0m.jpg",
         "phone_number": "+1 (234) 567-8910"
       },
       {

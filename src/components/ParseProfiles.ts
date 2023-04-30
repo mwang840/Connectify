@@ -4,6 +4,10 @@ interface User {
     name: String;
     phone: String;
     hobbies: Hobby[];
+    user_id: number;
+    profile_picture: String;
+    phone_number: String;
+    email: String;
 };
 
 interface Hobby {
@@ -19,18 +23,27 @@ for (let i=0; i<data.users.length; i++){
     let newName = data.users[i].name;
     let newPhone = data.users[i].phone_number;
     let newHobbies = [];
-    for(let i=0; i<data.users[0].hobbies.length; i++){
-    //  newHobbies = newHobbies.concat("\n", data.users[0].hobbies[i].name + data.users[0].hobbies[i].emoji);
+    let newUserID = data.users[i].user_id;
+    let newPFP = data.users[i].profile_picture;
+    let newPhoneNum = data.users[i].phone_number;
+    let newEmail = data.users[i].email;
+    console.log("parsing:")
+    for(let j=0; j<data.users[i].hobbies.length; j++){
+        console.log(data.users[i].hobbies.length)
         let newHobby: Hobby = {
-            name: data.users[0].hobbies[i].name,
-            emoji: data.users[0].hobbies[i].emoji
+            name: data.users[i].hobbies[j].name,
+            emoji: data.users[i].hobbies[j].emoji
         }
         newHobbies.push(newHobby)
     }
     let newUser: User = {
         name: newName,
         phone: newPhone,
-        hobbies: newHobbies
+        hobbies: newHobbies,
+        user_id: newUserID,
+        profile_picture: newPFP,
+        phone_number: newPhoneNum,
+        email: newEmail
     }
     Users.push(newUser);
 }
