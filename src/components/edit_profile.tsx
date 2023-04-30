@@ -3,16 +3,17 @@ import Name from './Name';
 import Contact from './Contact';
 // import About from './About';
 import FormAbout from './FormAbout';
+import { serialized } from './About';
 
 function EditProfile() {
     return (
         // <p>edit profile screen</p>
       <div className="profile">
        <header>
-       <Name></Name>
+       <Name user_id="0" serialized={ serialized }></Name>
        </header>
        <body>
-        <Contact></Contact>
+        <Contact user_id="0" serialized={ serialized }></Contact>
         <FormAbout user_id="0"></FormAbout>
        </body>
        <br></br>

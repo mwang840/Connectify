@@ -2,7 +2,7 @@ import React from 'react';
 import './Profile.css';
 import Name from './Name';
 import Contact from './Contact';
-import About from './About';
+import About, { serialized } from './About';
 import EditProfileButton from './EditProfileButton';
 import { UserProfile } from './user_profile';
 
@@ -12,10 +12,10 @@ function Profile(props: { user_id: string; serialized: []}) {
     return (
       <div className="profile">
         <header>
-          <Name></Name>
+          <Name user_id={props.user_id} serialized={ serialized }></Name>
         </header>
         <body>
-        <Contact></Contact>
+        <Contact user_id={props.user_id} serialized={ serialized }></Contact>
         <About user_id={props.user_id}></About>
         </body>
         <br></br>
