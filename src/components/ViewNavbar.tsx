@@ -2,6 +2,7 @@ import React from "react";
 import {Nav, Navbar} from "react-bootstrap";
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import Profile from './Profile';
+import Home from './home';
 //import "bootstrap/dist/css/bootstrap.min.css";
 
 
@@ -29,6 +30,7 @@ export function ViewNavbar(): JSX.Element {
       </Navbar><Router>
           <Routes>
             <Route path='/profile' element={<Profile />} />
+            <Route path='/home' element={<Home />} />
           </Routes>
         </Router></>
       );

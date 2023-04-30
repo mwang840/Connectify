@@ -45,7 +45,7 @@
 .left-value-props {
   position: absolute;
   top: 30%;
-  left: 10%;
+  left: 5%;
   /* transform: translate(-50%, -50%); */
 }
 
@@ -59,6 +59,31 @@
 
 .value-prop-body {
   font-size: 10px;
+  color: black;
+  text-align: left;
+  line-height: normal;
+}
+
+.right-heading {
+  position: absolute;
+  top: 25%;
+  right: 7%;
+  /* transform: translate(-50%, -50%); */
+}
+
+.logo {
+  align-content: center;
+  margin: auto;
+}
+
+.home_header {
+  align-items: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.home_header_body {
+  font-size: 15px;
   color: black;
   text-align: left;
   line-height: normal;
